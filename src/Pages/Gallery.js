@@ -15,7 +15,7 @@ function Gallery() {
       </div>
       <div className="carousel-part">
         <div data-aos="fade-up" className="carousel">
-        <Carousel showArrows={true} interval={2000} infiniteLoop={true} autoFocus={true} stopOnHover={false} autoPlay={true}>
+        <Carousel showArrows={true} interval={3000} infiniteLoop={true} autoFocus={true} stopOnHover={false} autoPlay={true}>
         <div>
           <img data-aos="zoom-in" alt='' src="https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/gallery%2FIMG_0478%20(1).webp?alt=media&token=ecbe1b0b-59df-408f-9ef9-5de16a6b31b9" />
         </div>
