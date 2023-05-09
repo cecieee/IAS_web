@@ -3,7 +3,7 @@
     width: 100%;
 }
 .homebody{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.55)),url(../../../src/assets/images/alain-pham-P_qvsF7Yodw-unsplash.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.55)),url(../../Assets/images/alain-pham-P_qvsF7Yodw-unsplash.webp);
     height: 100vh;
     background-position: center;
     background-size: cover;
