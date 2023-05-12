@@ -23,16 +23,16 @@ function Footer() {
            <div className='col m-1'>
            <h3 className='footer-heading'>ENQUIRY</h3>
             <h6><a href='/contacts' className='nav-link'>CONTACT US</a></h6>
-            <h6>WRITE A MAIL</h6>
+            <h6><a href="mailto:cecieeeofficial@gmail.com" className='nav-link'>WRITE A MAIL</a></h6>
             <h6><a href='/contacts' className='nav-link'>LOCATION</a></h6>
            </div>
 
            <div className='col m-1'>
         <div className='bottom1'>
-        <div className='bot1'><BsInstagram/></div>
-        <div className='bot1'><BsFacebook/></div> 
-        <div className='bot1'><FaLinkedinIn/></div> 
-        <div className='bot1'><BsGlobe2/></div>  
+        <div className='bot1 nav-link'><a href="https://www.instagram.com/ieee_sb_cec/"><BsInstagram/></a></div>
+        <div className='bot1 nav-link'><a href="https://www.facebook.com/IEEECEC/"><BsFacebook/></a></div> 
+        <div className='bot1 nav-link'><a href="https://www.linkedin.com/company/cecieee/"><FaLinkedinIn/></a></div> 
+        <div className='bot1 nav-link'><a href="https://cecieee.org/"><BsGlobe2/></a></div>  
         <div className='botline1'>@Ieeesbcec</div>
         </div>
       </div>

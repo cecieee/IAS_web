@@ -34,6 +34,10 @@
      margin-left: 10px;
      cursor: pointer;
  }
+.bot1 a {
+    color: rgba(255, 255, 255, 0.804);
+}
+
  .botline1{
      cursor: pointer;
      margin-left: 10px;

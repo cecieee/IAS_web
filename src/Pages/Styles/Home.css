@@ -3,7 +3,8 @@
     width: 100%;
 }
 .homebody{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.55)),url(../../../src/assets/images/alain-pham-P_qvsF7Yodw-unsplash.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.55)),url(../../assets/images/alain-pham-P_qvsF7Yodw-unsplash.webp);
+
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -53,6 +54,32 @@
     font-size: large;
     padding: 20px 5px 20px 5px;
 }
+
+.carousel-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-part .carousel{
+    height: 50%;
+    width: 70%;
+    border-radius: 15px;
+}
+.carousel .slide .legend {
+    background: transparent;
+}
+.carousel .slider-wrapper{
+    aspect-ratio: 16/9;
+}
+.carousel .thumb{
+    aspect-ratio: 16/9;
+    border-radius: 5px;
+}
+
+.thumbs-wrapper {
+    visibility: hidden;
+}
+
 .footer{
     height: 200px;
 }
@@ -93,5 +120,18 @@
     }
     .heading1{
         margin: 10% 0 10% 0;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .carousel-part .carousel{
+        width: 100%;
+    }
+    .carousel .control-dots{
+        bottom: -7px;
+    }
+    .carousel .slide .legend {
+        bottom: 0;
     }
 }
