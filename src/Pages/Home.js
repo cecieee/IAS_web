@@ -3,10 +3,22 @@ import "./Styles/Home.css"
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Home() {
+
+  window.addEventListener('load', function() {
+    setTimeout(function() {
+      document.querySelector('.loader-wrapper').style.display = 'none';  
+      document.querySelector('body').style.backgroundColor = '';
+    }, 3000);
+  });
+  
+
   return (
-    <div className='home'>
+    <div className='home loaded'>
+      <div class="loader-wrapper">
+        <div class="loader"></div>
+      </div>
       <div className="homebody">
-        <div className='container-fluid mid'>
+        <div className='container-fluid1 mid'>
           <h1 className='heading1 row'>
             <span data-aos="fade-up" >INDUSTRY</span><br />
             <span data-aos="fade-up" className=' col-lg-8 col-sm-12'>APPLICATIONS</span>

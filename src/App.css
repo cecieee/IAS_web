@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     user-select: none;
-    
+    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .main-body{
@@ -12,3 +13,4 @@
    overflow-y: hidden;
    overflow-x: hidden;
 }
+

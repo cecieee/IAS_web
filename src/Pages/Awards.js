@@ -14,12 +14,8 @@ function Awards() {
     </div> 
       <div data-aos="fade-in" className='row m-5'>
         <AwardTile data-aos="fade-up" title="IAS CMD OUTSTANDING LARGE CHAPTER AWARD 2021"/>
-        <AwardTile title="IAS CMD MOST HAPPENING CHAPTER AWARD 2022"/>
-       
-     
+        <AwardTile data-aos="fade-up" title="IAS CMD MOST HAPPENING CHAPTER AWARD 2022"/>  
       </div> 
-   
-
    
     <Sidetitle title="AWARDS"/>
     </div>
