@@ -7,13 +7,13 @@ function Awards() {
     <div className='container-fluid'>
     <div className='m-5 awards  '>
     <div className='line line1'></div>
-      <div className='title1'>
-        <h1 className='heading-title'>AWARDS</h1></div>
+      <div data-aos="zoom-in" className='title1'>
+        <h1  className='heading-title'>AWARDS</h1></div>
 
       <div className='line line1'></div> 
     </div> 
-      <div className='row m-5'>
-        <AwardTile title="IAS CMD OUTSTANDING LARGE CHAPTER AWARD 2021"/>
+      <div data-aos="fade-in" className='row m-5'>
+        <AwardTile data-aos="fade-up" title="IAS CMD OUTSTANDING LARGE CHAPTER AWARD 2021"/>
         <AwardTile title="IAS CMD MOST HAPPENING CHAPTER AWARD 2022"/>
        
      

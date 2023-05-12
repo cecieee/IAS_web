@@ -12,7 +12,7 @@ function Events() {
         <Heading title='EVENTS' />
         <Line />
       </div>
-      <div className='row mx-5' >
+      <div data-aos="fade-up" className='row mx-5' >
         {  details.event.map((events,i)=>
         <EventTile  title={events.title} link={events.image} description={events.intro} id={events.id} /> )}
         </div> 
