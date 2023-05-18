@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Styles/Home.css"
+import Line from '../Components/Line/Line'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Home() {
@@ -49,6 +50,24 @@ function Home() {
               IEEE Industry Applications Society assumes a crucial responsibility in promoting the progress of theoretical knowledge and practical application concerning the creation, development, and implementation of safe, eco-friendly, and intelligent electrical systems, equipment, and services. By fulfilling this role, the society aims to establish a collaborative platform that encourages learning, knowledge dissemination, and empowers professionals and researchers globally to make meaningful contributions to the field.
             </p>
           </div>
+        </div>
+          <div className='top-decor'>
+          <div>EMERGENCE 2.0</div>
+          <div>EMERGENCE 2.0</div>
+          <div className='em-3'>EMERGENCE 2.0</div>
+          </div>
+          <div data-aos="fade-up" className="col-lg-12">
+            <div className='em-pg'>
+              <div className='em-head'>
+                <h1>EMERGENCE 2.0</h1><Line />
+              </div>
+              <h5><i>Flagship Event of IEEE SB CEC</i></h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non porta orci. Aenean maximus risus massa, sit amet maximus purus venenatis et. Aenean ut mauris in eros luctus rutrum. Vestibulum gravida interdum velit sit amet hendrerit. Nulla a venenatis leo, nec ultricies diam. Nulla id orci eu leo ullamcorper feugiat. Mauris ultricies dolor id risus varius placerat. Sed ante ex, scelerisque aliquam nisl at, ullamcorper volutpat magna. Nam quis posuere eros, vel vulputate tortor. Donec in quam lectus. Mauris sit amet pulvinar lectus, in cursus magna.</p>
+            
+              <p>Duis porttitor id turpis non laoreet. Mauris quis posuere lacus. Nam tincidunt laoreet nisl, vitae lobortis erat vulputate sit amet. Quisque lacinia suscipit dolor id consequat. Sed sit amet massa nisi. Donec elementum porta varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus non massa vehicula, maximus ante eget, ullamcorper risus.</p>
+            
+            </div>
+          </div>
          <div className="carousel-part">
         <div className="carousel">
         <Carousel showArrows={true} interval={2000} infiniteLoop={true} autoFocus={true} stopOnHover={false} autoPlay={true}>
@@ -92,9 +111,13 @@ function Home() {
 
         </div>
       </Carousel>
-        </div>
       </div>
          </div>
+        <div className='bot-decor'>
+          <div>EMERGENCE 2.0</div>
+          <div>EMERGENCE 2.0</div>
+          <div className='em-3'>EMERGENCE 2.0</div>
+          </div>
         </div>
       </div>
     </div>
