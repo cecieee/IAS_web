@@ -24,7 +24,7 @@ function Footer() {
            <h3 className='footer-heading'>ENQUIRY</h3>
             <h6><a href='/contacts' className='nav-link'>CONTACT US</a></h6>
             <h6><a href="mailto:cecieeeofficial@gmail.com" className='nav-link'>WRITE A MAIL</a></h6>
-            <h6><a href='/contacts' className='nav-link'>LOCATION</a></h6>
+            <h6><a href='https://www.google.com/maps/place/College+of+Engineering+Chengannur/@9.317325,76.617486,16z/data=!4m6!3m5!1s0x3b0622ea027eb08f:0x41105b207db821c6!8m2!3d9.3173253!4d76.6174856!16zL20vMDhxODg3?hl=en&entry=ttu' className='nav-link'>LOCATION</a></h6>
            </div>
 
            <div className='col m-1'>

@@ -12,7 +12,7 @@ function EventTile( props ) {
     return (
         <div className='event-tile col-lg-4 col-md-6 col-12 my-2'>
             <div className='event-pic'>
-                <img onClick={Letsgo}  style={{objectFit:"fill"}} src={props.link} alt='event-pic' />
+                <img style={{objectFit:"fill"}} src={props.link} alt='event-pic' />
             </div>
             <div className="event-name-box">
                 <center>

@@ -13,12 +13,13 @@ function Contacts() {
         <Heading title='CONTACT US' />
         <Line />
         </div>
-         <div className='row row-cols-1 row-cols-lg-2 my-5 content-main '>
+         <div className='row row-cols-1 row-cols-lg-2 my-4 content-main '>
           <div data-aos="zoom-in" className='col  m-3 content'>
             <h2><span>IEEE Student Branch </span><br />
             <span>College of Engineering Chengannur</span><br /> 
             <span>Alappuzha Kerala</span><br />
-            <span>Pin:689121</span>
+            <span>Pin:689121</span><br />
+            <span>Phone: 0479-2454125</span><br />
             </h2>
           </div>
           <div data-aos="zoom-in" className='col my-3 map'>
@@ -27,7 +28,6 @@ function Contacts() {
             height="400px"
              style={{border:"0",borderRadius:"9px"}}
              allowfullscreen="true"
-             
               referrerpolicy="no-referrer-when-downgrade" title='map'>
 
               </iframe>
@@ -35,14 +35,6 @@ function Contacts() {
          </div>
       </div>
       <Sidetitle title="CONTACT US"/>
-      
-        <div className='bottom'>
-        <div className='bot'><BsInstagram/></div>
-        <div className='bot'><BsFacebook/></div> 
-        <div className='bot'><FaLinkedinIn/></div> 
-        <div className='bot'><BsGlobe2/></div>  
-        <div className='botline'>@Ieeesbcec</div>
-        </div>
       </div>
   
   )

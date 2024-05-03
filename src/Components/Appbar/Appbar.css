@@ -2,16 +2,26 @@
 .navbar-brand img {
     height: 35px; 
     object-fit: fill;
-    width: 100px;
+  }
+
+  .container-fluid {
+    padding: 0.5%;
   }
   .container{
     max-width: 780px;
     position: fixed;
   }
+
+  nav {
+    margin: 0;
+    width: 100vw;
+    position: fixed;
+  }
+
   .navbar-nav {
     display: flex;
     justify-content: right;
-    width: 100%;
+    width: 90%;
     font-size: 17px;
   }
   

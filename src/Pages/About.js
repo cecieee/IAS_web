@@ -19,9 +19,9 @@ Within four years since its inception, <b>IAS SBC CEC</b> has been able to bag 2
 
 <b>OFFICE BEARERS</b><br />
 <b>Chapter Advisor</b> : Dr. M. V. Rajesh <br />
-<b>Chairperson</b> : Swathy Sekhar <br />
- <b>Vice-Chairperson</b> : Akash G Nair <br />
-<b>Secretary</b>: Rohan K Abraham</div>
+<b>Chairperson</b> : Akash G Nair <br />
+ <b>Vice-Chairperson</b> : Archana Krishna <br />
+<b>Secretary</b>: Shwetha Liju</div>
 <Sidetitle title="ABOUT"/>
       
     </div>
