@@ -3,7 +3,8 @@ import "./Styles/Home.css";
 import Line from "../Components/Line/Line";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import GLOBE from 'vanta/dist/vanta.globe.min';
+// import GLOBE from 'vanta/dist/vanta.globe.min';
+import CLOUDS from 'vanta/dist/vanta.clouds.min';
 import NET from 'vanta/dist/vanta.net.min';
 import { useEffect, useState, useRef } from 'react';
 
@@ -23,14 +24,17 @@ function Home() {
   const myRef = useRef(null)
   useEffect(() => {
     if (!vantaEffect) {
-      setVantaEffect(GLOBE({
+      setVantaEffect(CLOUDS({
         el: myRef.current,
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
         width: window.innerWidth,
         height: window.innerHeight,
-        color: 0x2f6966,
+        color: 0x0
+        ,
+        color2: 0x0,
+        backgroundColor: 0x0
 
       }))
     }
