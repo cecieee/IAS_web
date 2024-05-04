@@ -3,6 +3,15 @@ import "./Styles/Home.css";
 import Line from "../Components/Line/Line";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import GLOBE from 'vanta/dist/vanta.globe.min';
+import NET from 'vanta/dist/vanta.net.min';
+import { useEffect, useState, useRef } from 'react';
+
+// Assign THREE to window.THREE
+
+
+
+// window.THREE = THREE;
 function Home() {
   // window.addEventListener('load', function() {
   //   setTimeout(function() {
@@ -10,7 +19,25 @@ function Home() {
   //     document.querySelector('body').style.backgroundColor = '';
   //   }, 3000);
   // });
+  const [vantaEffect, setVantaEffect] = useState(null)
+  const myRef = useRef(null)
+  useEffect(() => {
+    if (!vantaEffect) {
+      setVantaEffect(GLOBE({
+        el: myRef.current,
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        width: window.innerWidth,
+        height: window.innerHeight,
+        color: 0x2f6966,
 
+      }))
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destroy()
+    }
+  }, [vantaEffect])
   const imageUrls = [
     "https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Emergence%203.0%2FIMG-20240503-WA0014.jpg?alt=media&token=e1dc37a9-5d6c-4fed-ae54-fdaa29219e2f",
     "https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Emergence%203.0%2FIMG-20240503-WA0008.jpg?alt=media&token=288a1be9-37d7-4ef3-8806-ac969175ac19",
@@ -20,11 +47,14 @@ function Home() {
   ];
 
   return (
-    <div className="home">
+    <div >
+
+
+    <div className="home" >
       {/* <div class="loader-wrapper">
         <div class="loader"></div>
       </div> */}
-      <div className="homebody">
+      <div className="homebody" ref={myRef}>
         <div className="container-fluid1 mid">
           <h1 className="heading1 row">
             <span data-aos="fade-up">INDUSTRY</span>
@@ -130,6 +160,7 @@ function Home() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -11,6 +11,8 @@ import Awards from './Pages/Awards'
 import EventDetail from './Pages/EventDetail'
 import Footer from './Components/Footer/Footer'
 import details from "./Pages/details"
+
+
 function App() {
   return (
    <div className='App'>
