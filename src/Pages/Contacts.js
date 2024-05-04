@@ -14,7 +14,7 @@ function Contacts() {
         <Line />
         </div>
          <div className='row row-cols-1 row-cols-lg-2 my-4 content-main '>
-          <div data-aos="zoom-in" className='col  m-3 content'>
+          <div data-aos="zoom-in" className='col content my-3'>
             <h2><span>IEEE Student Branch </span><br />
             <span>College of Engineering Chengannur</span><br /> 
             <span>Alappuzha Kerala</span><br />
