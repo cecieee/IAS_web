@@ -16,7 +16,7 @@ function Awards() {
       <div data-aos="fade-in" className="row m-5">
         <AwardTile
           data-aos="fade-up"
-          title="IAS CMD OUTSTANDING STUDENT BRANCH CHAPTER AWARD 2022"
+          title="IAS CMD OUTSTANDING STUDENT BRANCH CHAPTER AWARD 2023"
         />
         <AwardTile
           data-aos="fade-up"

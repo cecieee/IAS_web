@@ -1,6 +1,5 @@
 {
   "event": [
-
     {
       "id": 12,
       "title": "DIY - Talk Session",
@@ -56,16 +55,25 @@
     },
 
     {
-      "id": 7,
-      "title": "CANDLE",
-      "qoute": "“The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.”_~ Bill Gates_",
-      "intro": "As technology advances, software development gets easier by the day. Illumination is a tool used for visually designing and developing software without writing a single line of code by hand.",
-      "content": "IEEE Industry Applications Society Student Branch Chapter College of Engineering Chengannur is excited to host CANDLE: Workshop on Illumination Software to provide you with a hands-on overview of how to handle software 'building blocks', and to explore the world of possibilities this tool can offer.The workshop will be led by Arjun K R, BIM Electrical Engineer, and will feature a hackathon to help you get working on the skills you gain without skipping a beat. Registration is limited to 45 seats so join us at the earliest to not miss the opportunity.",
-      "date": "Date: 22 - 24 May 2021",
-      "image": "https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Events%2FIMG-20210516-WA0138.jpg?alt=media&token=85340ea2-2b35-46b1-a7b5-ab274490cf31",
-      "register": "http://bit.ly/CANDLE_workshop"
+      "id": 1,
+      "title": "EXPLORE IAS",
+      "qoute": "“Change is the result of all true learning.”~Leo Buscaglia",
+      "intro": "",
+      "content": "IEEE Industry Applications Society Student Branch Chapter College of Engineering Chengannur is delighted to present Explore IAS: Come let's have a chat on Industry Applications Society. The session focuses on discussing the importance of IAS and the opportunities it provides.",
+      "date": "Date:5th January 2023",
+      "image": "https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Events%2FWhatsApp%20Image%202023-04-30%20at%2011.48.12.jpg?alt=media&token=4c4bc271-b21e-4d1b-a138-1f340dea35e1",
+      "register": ""
     },
-
+    {
+      "id": 0,
+      "title": "VOLTARE",
+      "qoute": "“The more I live, the more I learn. The more I learn, the more I realise, the less I know.”~Michel Legrand",
+      "intro": "MATLAB serves as a software platform specifically designed to aid in the analysis and design of diverse systems and products.",
+      "content": "IEEE Industry Applications Society Student Branch Chapter College of Engineering Chengannur is hosting Voltare, a week-long bootcamp on circuit designing and analysis on Matlab handled by Dr M.V Rajesh, Chapter Advisor-IAS SBC CEC, Chair-Kochi subsection.",
+      "date": "Date:10th April 2023",
+      "image": "https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Events%2FWhatsApp%20Image%202023-04-30%20at%2011.47.17.jpg?alt=media&token=1e040d66-e8e7-4799-8246-3d30092fe974",
+      "register": "http://min.lc/VOLTARE*_"
+    },
     {
       "id": 6,
       "title": "LEARN",
@@ -97,7 +105,6 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Events%2FIMG-20220510-WA0161.jpg?alt=media&token=48ac1abe-d790-4d5a-8cbc-c201d8b26bef",
       "register": ""
     },
-
     {
       "id": 3,
       "title": "VOLTARE",
@@ -108,7 +115,6 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Events%2FWhatsApp%20Image%202023-04-30%20at%2011.48.47.jpg?alt=media&token=5df9ca9a-f53a-40f3-b708-f615f27f77e6",
       "register": ""
     },
-
     {
       "id": 2,
       "title": " EMERGENCE 2.0",
@@ -118,26 +124,6 @@
       "date": "Date: 8 - 9th October 2021",
       "image": "https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Events%2FWhatsApp%20Image%202023-04-30%20at%2017.07.18.jpg?alt=media&token=15322469-9c84-42d2-890a-947a4217795b",
       "register": ""
-    },
-    {
-      "id": 1,
-      "title": "EXPLORE IAS",
-      "qoute": "“Change is the result of all true learning.”~Leo Buscaglia",
-      "intro": "",
-      "content": "IEEE Industry Applications Society Student Branch Chapter College of Engineering Chengannur is delighted to present Explore IAS: Come let's have a chat on Industry Applications Society. The session focuses on discussing the importance of IAS and the opportunities it provides.",
-      "date": "Date:5th January 2023",
-      "image": "https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Events%2FWhatsApp%20Image%202023-04-30%20at%2011.48.12.jpg?alt=media&token=4c4bc271-b21e-4d1b-a138-1f340dea35e1",
-      "register": ""
-    },
-    {
-      "id": 0,
-      "title": "VOLTARE",
-      "qoute": "“The more I live, the more I learn. The more I learn, the more I realise, the less I know.”~Michel Legrand",
-      "intro": "MATLAB serves as a software platform specifically designed to aid in the analysis and design of diverse systems and products.",
-      "content": "IEEE Industry Applications Society Student Branch Chapter College of Engineering Chengannur is hosting Voltare, a week-long bootcamp on circuit designing and analysis on Matlab handled by Dr M.V Rajesh, Chapter Advisor-IAS SBC CEC, Chair-Kochi subsection.",
-      "date": "Date:10th April 2023",
-      "image": "https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Events%2FWhatsApp%20Image%202023-04-30%20at%2011.47.17.jpg?alt=media&token=1e040d66-e8e7-4799-8246-3d30092fe974",
-      "register": "http://min.lc/VOLTARE*_"
     }
   ]
 }
