@@ -1,6 +1,36 @@
 {
   "event": [
     {
+      "id": 15,
+      "title": "Design of Grid Connected Solar System",
+      "qoute": "“The way to get started is to quit talking and begin doing“~_Walt Disney_",
+      "intro": "As part of PELS Day Celebrations 2023, IEEE Industry Applications Society Student Branch Chapter College of Engineering Chengannur is gratified to host a webinar on the topic DESIGN OF GRID CONNECTED SOLAR SYSTEM.",
+      "content": "This edifying session is handled by Nandakumar N, Assistant Engineer at KSEBL Chengannur.",
+      "date": "Date: 23 June 2023",
+      "image": "./eventimgs/PESLDAY.jpg",
+      "register": ""
+    },
+    {
+      "id": 14,
+      "title": "EMERGENCE 3.0",
+      "qoute": "“Good fortune is what happens when opportunity meets with planning“~_Thomas Edison_",
+      "intro": "EMERGENCE 3.0, an All Kerala Techno - Managerial Conclave conducted by IEEE Industry Applications Society Student Branch Chapter College of Engineering Chengannur is set to unfold on 4th & 5th November 2023 at the dynamic College of Engineering Chengannur.",
+      "content": "Brace yourselves for a convergence of innovation, learning and inspiration as EMERGENCE 3.0 promises to be a journey into the unknown, where ideas spark and possibilities emerge.Mark your calendars and stay tuned for more updates as we gear up for a thrilling ride into the world of innovation and excitement.",
+      "date": "Date: 04 - 05 Nov 2023",
+      "image": "./eventimgs/Emergence3.jpg",
+      "register": ""
+    },
+    {
+      "id": 13,
+      "title": "PITCH-A-PERFECT",
+      "qoute": "“A person with a new idea is a crank until the idea succeeds.“~_Mark Twain_",
+      "intro": "Do you have an idea but don't know where to start? Let's carve your path ahead and provide you a better platform to showcase your ideas.",
+      "content": "As a part of IEEE PELS Day Celebrations 2023, IEEE Industry Applications Society Student Branch Chapter College of Engineering Chengannur is here with an idea pitching competition 'Pitch-a-Perfect'.Grab this opportunity and share your innovative ideas.",
+      "date": "Date: 30th June 2023",
+      "image": "./eventimgs/Pitch A Perfect.jpg",
+      "register": ""
+    },
+    {
       "id": 12,
       "title": "DIY - Talk Session",
       "qoute": "“The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.”_~ Bill Gates_",

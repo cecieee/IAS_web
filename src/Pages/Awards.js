@@ -26,6 +26,10 @@ function Awards() {
           data-aos="fade-up"
           title="IAS CMD OUTSTANDING LARGE CHAPTER AWARD 2021"
         />
+        <AwardTile
+          data-aos="fade-up"
+          title="OUTSTANDING STUDENT VOLUNTEER AWARD 2022 IEEE IA/IE/PELS JT CHAPTER KERALA"
+        />
       </div>
 
       <Sidetitle title="AWARDS" />

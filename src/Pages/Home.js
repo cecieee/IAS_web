@@ -41,6 +41,8 @@ function Home() {
     "https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Emergence%203.0%2FIMG-20240503-WA0016.jpg?alt=media&token=a631423b-b5b9-498b-a50f-6fe7a43c395d",
     "https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Emergence%203.0%2FIMG-20240503-WA0018.jpg?alt=media&token=74c53e5d-9938-42c8-ad76-1ef06f252a1e",
     "https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Emergence%203.0%2FIMG-20240503-WA0020.jpg?alt=media&token=e1461852-e76a-4f57-998b-75571ed4436a",
+    "./gallery/image1.jpg",
+    "./gallery/image2.jpg",
   ];
 
   return (
