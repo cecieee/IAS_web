@@ -23,6 +23,7 @@ function Gallery() {
     "https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/gallery%2FIMG-20230419-WA0033(1).webp?alt=media&token=6d8f2fd3-305b-482b-ab4e-798d93b10d7b",
     "https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/gallery%2FIMG_0354%20(1).webp?alt=media&token=684944de-5378-4f62-8511-34db76d9121c",
     "https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/gallery%2FIMG_0478%20(1).webp?alt=media&token=ecbe1b0b-59df-408f-9ef9-5de16a6b31b9"
+    
   ];
 
   return (

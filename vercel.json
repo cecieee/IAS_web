@@ -1,0 +1,5 @@
+{
+    "redirects": [
+      { "source": "/test", "destination": "https://google.com", "permanent": false }
+    ]
+  }
