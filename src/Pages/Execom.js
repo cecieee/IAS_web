@@ -4,6 +4,7 @@ import Heading from '../Components/Heading/Heading'
 import Line from '../Components/Line/Line'
 import './Styles/Execom.css'
 import Sidetitle from '../Components/Sidetitle/Sidetitle'
+import {Razeen} from "../assets/RAZEEN RIAZ.jpg"
 import AOS from 'aos'
 
 AOS.init({
@@ -14,6 +15,18 @@ function Execom() {
 
   return (
     <div className='execom container-fluid'>
+      <div className='m-5'>
+        <div className='row'>
+        <Heading title="EXECOM '25"  />
+        <Line />
+        </div>
+         <div className='row execom-row' data-aos="fade-up" data-aos-delay="100" >
+          <ExecomPic name="Haseena P Y" position='Chapter Advisor' link="https://firebasestorage.googleapis.com/v0/b/ieee-link-task-by-hari.appspot.com/o/WhatsApp%20Image%202025-03-19%20at%2014.02.36_1e1ca4ad.jpg?alt=media&token=1cd7608c-b743-4cb0-b0aa-b2641adc53c8"/>
+          <ExecomPic position="Chairperson" name='Archana Krishna' link="https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Execom%2FArchana.png?alt=media&token=d3c8f987-1f06-4191-8235-261644df3c6b"/>
+          <ExecomPic position="Vice-Chairperson" name='Razeen Riaz' link='https://firebasestorage.googleapis.com/v0/b/ieee-link-task-by-hari.appspot.com/o/RAZEEN%20RIAZ.jpg?alt=media&token=f84c6e33-b543-4693-81f6-e9c47f3faa30'/>
+          <ExecomPic position="Secretary" name='Shwetha Liju' link="https://firebasestorage.googleapis.com/v0/b/ieee-ias-6a71e.appspot.com/o/Execom%2FShwetha.png?alt=media&token=a002b00f-6645-4b02-ab38-89013df5f984"/>
+        </div>
+      </div>
       <div className='m-5'>
         <div className='row'>
         <Heading title="EXECOM '24"  />

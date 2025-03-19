@@ -25,9 +25,9 @@ function About() {
        
         <b>OFFICE BEARERS</b>
         <br />
-        <b>Chapter Advisor</b> : Dr. M. V. Rajesh <br />
-        <b>Chairperson</b> : Akash G Nair <br />
-        <b>Vice-Chairperson</b> : Archana Krishna <br />
+        <b>Chapter Advisor</b> : Haseena P Y <br />
+        <b>Chairperson</b> : Archana Krishna <br />
+        <b>Vice-Chairperson</b> : Razeen Riaz <br />
         <b>Secretary</b>: Shwetha Liju
       </div>
       <Sidetitle title="ABOUT" />
