@@ -25,6 +25,7 @@ jobs:
 
       - name: Deploy to deploy branch
         run: |
+          echo "deployment:\n  tasks:\n    - export DEPLOYPATH=." > build/.cpanel.yml
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           git checkout --orphan deploy
