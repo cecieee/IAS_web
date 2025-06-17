@@ -75,7 +75,7 @@ function Home() {
             <div data-aos="fade-up" className="col-lg-12">
               <div className="m-v-box" >
                 <div>
-                  <h1 >ABOUT</h1>
+                  <h1 >ABOUT US</h1>
                 </div>
                 <h3>IEEE SB CEC</h3>
                 <p>
