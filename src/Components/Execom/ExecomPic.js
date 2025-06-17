@@ -1,8 +1,5 @@
 import React ,{useState, useEffect}from 'react'
 import "./ExecomPic.css"
-import {blurhash} from 'react-blurhash';
-
-
 
 function ExecomPic(props) {
 

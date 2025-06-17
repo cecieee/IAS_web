@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Sidetitle from '../Components/Sidetitle/Sidetitle'
 import EventTile from '../Components/Event/EventTile'
 import Heading from '../Components/Heading/Heading'

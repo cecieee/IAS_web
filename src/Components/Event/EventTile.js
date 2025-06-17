@@ -1,14 +1,6 @@
 import React from 'react'
 import './EventTile.css'
-import { useNavigate } from 'react-router-dom'
 function EventTile( props ) {
-    const Navigate = useNavigate();
-    const Letsgo=()=>{
-        var Id=`${props.id}`
-        Navigate(`${props.title}`,{ state:{
-            id:Id
-        }})
-      }
     return (
         <div className='event-tile col-lg-4 col-md-6 col-12 my-2'>
             <div className='event-pic'>

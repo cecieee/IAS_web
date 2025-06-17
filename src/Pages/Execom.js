@@ -4,7 +4,6 @@ import Heading from '../Components/Heading/Heading'
 import Line from '../Components/Line/Line'
 import './Styles/Execom.css'
 import Sidetitle from '../Components/Sidetitle/Sidetitle'
-import {Razeen} from "../assets/RAZEEN RIAZ.jpg"
 import AOS from 'aos'
 
 AOS.init({
